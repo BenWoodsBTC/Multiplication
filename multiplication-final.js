@@ -23,7 +23,7 @@ function multiPractice(){
     userInput = prompt(x+" * "+y+" = ?"); // Prompts the user to answer the question "x * y = ?"
     if(userInput==solution){
       alert("Correct!"); // Alerts correct if userInput equals solution
-    }else if(userInput=="stop"){
+    }else if((userInput=="stop") || (userInput=="Stop")){
       userInput=solution; // Stops the program if userInput equals stop
     }else{
       alert("Incorrect!"); // Alerts incorrect if userInput doesn't equal solution
